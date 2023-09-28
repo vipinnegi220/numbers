@@ -1,0 +1,32 @@
+.CheckoutPage {
+  width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.borrow-amount-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.borrow-amount-input {
+  flex: 1;
+}
+
+.borrow-amount-display {
+  flex: 1;
+  text-align: right;
+}
